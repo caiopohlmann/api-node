@@ -1,0 +1,29 @@
+POST https://api-node-ugsa.onrender.com/videos
+Content-type: application/json
+
+{
+    "title" : "TESTE 1",
+    "description": "TESTE 1",
+    "duration" : 1
+}
+
+
+###
+
+GET https://api-node-ugsa.onrender.com/videos
+
+###
+
+
+PUT https://api-node-ugsa.onrender.com/videos/8c982a27-e478-4a14-89c5-439504a3c5ba
+Content-type: application/json
+
+{
+    "title" : "TESTE 2",
+    "description": "TESTE 2",
+    "duration" : 2
+}
+
+###
+
+DELETE https://api-node-ugsa.onrender.com/videos/7f78c472-08f0-4607-9603-727d51d4738a
